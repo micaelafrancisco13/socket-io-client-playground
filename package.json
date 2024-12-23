@@ -1,0 +1,18 @@
+{
+  "name": "socket-io-client-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.12",
+    "nodemon": "^3.1.9",
+    "socket.io-client": "^4.8.1"
+  }
+}
