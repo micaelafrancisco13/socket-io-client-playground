@@ -58,11 +58,11 @@ socket.on('disconnect', (reason) => {
 // ─────────────────────────────────────────────────────────────
 
 /**
- * Listen for 'test-socket' event from the server.
+ * Listen for 'receive-data' event from the server.
  * This is where we receive data that the server broadcasts or emits.
  */
-socket.on('test-socket', (data) => {
-    console.group('test-socket event');
+socket.on('receive-data', (data) => {
+    console.group('receive-data event');
     console.log('Received data from server:', data);
     console.groupEnd();
 });
